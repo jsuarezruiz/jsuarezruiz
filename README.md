@@ -4,7 +4,7 @@ I’m currently working on Xamarin.Forms at Microsoft.
 
 <p align="center">
   <a href="https://github.com/xamarin/Xamarin.Forms">
-    <img src="images/xamarin_forms.png" alt="xamarinforms" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/xamarin_forms.png" alt="xamarinforms" style="vertical-align:top; margin:6px 4px">
   </a>  
 </p>
 
@@ -14,7 +14,7 @@ You can read about my projects and find more context for many of the repositorie
 
 <p align="center">
   <a href="https://javiersuarezruiz.wordpress.com">
-    <img src="images/wordpress.png" alt="wordpress" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/wordpress.png" alt="wordpress" style="vertical-align:top; margin:6px 4px">
   </a>  
 </p>
 
@@ -23,15 +23,15 @@ You can read about my projects and find more context for many of the repositorie
 
 <p align="left">
   <a href="https://twitter.com/jsuarezruiz">
-    <img src="images/twitter.png" alt="twitter" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/twitter.png" alt="twitter" style="vertical-align:top; margin:6px 4px">
   </a>  
   <a href="https://www.youtube.com/javiersuarezruiz">
-    <img src="images/youtube.png" alt="youtube" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/youtube.png" alt="youtube" style="vertical-align:top; margin:6px 4px">
   </a>  
   <a href="https://www.twitch.tv/jsuarezruiz">
-    <img src="images/twitch.png" alt="twitch" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/twitch.png" alt="twitch" style="vertical-align:top; margin:6px 4px">
   </a>   
   <a href="https://www.linkedin.com/in/jsuarezruiz">
-    <img src="images/linkedin.png" alt="linkedin" style="vertical-align:top; margin:6px 4px">
+    <img src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/linkedin.png" alt="linkedin" style="vertical-align:top; margin:6px 4px">
   </a>  
 </p> 
