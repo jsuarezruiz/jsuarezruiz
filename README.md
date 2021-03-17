@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I’m currently working on Xamarin.Forms at Microsoft.
+I’m currently working on Xamarin.Forms and .NET MAUI at Microsoft.
 
 <p align="center">
   <a href="https://github.com/xamarin/Xamarin.Forms">
