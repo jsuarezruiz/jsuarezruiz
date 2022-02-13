@@ -16,6 +16,8 @@ I’m currently working on Xamarin.Forms and .NET MAUI at Microsoft.
 
 Love interacting with the community, share knowledge and learn new things.
 
+<img align="right" alt="GIF" src="https://github.com/jsuarezruiz/jsuarezruiz/blob/master/images/coding.gif?raw=true" width="400" height="300" />
+
 **Talking about Personal Stuffs:**
 
 - 👨 I’m Javier Suárez (jsuarezruiz).
