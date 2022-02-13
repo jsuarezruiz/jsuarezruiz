@@ -20,6 +20,7 @@ Love interacting with the community, share knowledge and learn new things.
 
 - 👨 I’m Javier Suárez (jsuarezruiz).
 - 😄 Pronouns: he/him/his.
+- 🏢 I currently work at Microsoft.
 - 💬 Ask me about anything, I am happy to help.
 - 📝 I regulary write [articles](https://javiersuarezruiz.wordpress.com).
 - 🎞️ I make fun coding [videos](https://www.youtube.com/javiersuarezruiz).
