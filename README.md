@@ -1,3 +1,5 @@
+![Banner](images/banner.png)
+
 ### Hi there 👋
 
 I’m currently working on Xamarin.Forms and .NET MAUI at Microsoft.
