@@ -12,8 +12,6 @@
 
 ### Glad to see you here!
 
-<img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="300" />
-
 I’m currently working on Xamarin.Forms and .NET MAUI at Microsoft. 
 
 Love interacting with the community, share knowledge and learn new things.
