@@ -4,7 +4,7 @@
 
 <table align="right">
  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13"> Inglés</a></td></tr>
- <tr><td><a href="README_es.md"><img src="images/es-flag.png" height="13"> Español</a></td></tr>
+ <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="13"> Español</a></td></tr>
 </table>
 
 ![](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)
