@@ -18,7 +18,7 @@
 
 ### Encantado de verte aquí!
 
-<img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="300" />
+<img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="400" />
 
 Actualmente estoy trabajando en el equipo de desarrollo de Xamarin.Forms y .NET MAUI en Microsoft.
 
