@@ -24,7 +24,7 @@ Actualmente estoy trabajando en el equipo de desarrollo de Xamarin.Forms y .NET 
 
 Me encanta interactuar con la comunidad, compartir conocimientos y aprender cosas nuevas.
 
-**Talking about Personal Stuffs:**
+**Más acerca de mí:**
 
 - 👨 Soy Javier Suárez (jsuarezruiz).
 - 🏢 Actualmente trabajo en Microsoft.
