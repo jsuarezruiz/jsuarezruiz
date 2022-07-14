@@ -1,10 +1,10 @@
-### Hi there, I'm <a href="https://javiersuarezruiz.wordpress.com" target="_blank">Javier</a> 👋
+### Hola, soy <a href="https://javiersuarezruiz.wordpress.com" target="_blank">Javier</a> 👋
 
 ![Banner](images/banner.png)
 
 <table align="right">
- <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13"> English</a></td></tr>
- <tr><td><a href="README_es.md"><img src="images/es-flag.png" height="13"> Spanish</a></td></tr>
+ <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13"> Inglés</a></td></tr>
+ <tr><td><a href="README_es.md"><img src="images/es-flag.png" height="13"> Español</a></td></tr>
 </table>
 
 ![](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)
@@ -16,26 +16,27 @@
 
 </br>
 
-### Glad to see you here!
+### Encantado de verte aquí!
 
-I’m currently working on Xamarin.Forms and .NET MAUI at Microsoft. 
+<img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="300" />
 
-Love interacting with the community, share knowledge and learn new things.
+Actualmente estoy trabajando en el equipo de desarrollo de Xamarin.Forms y .NET MAUI en Microsoft.
+
+Me encanta interactuar con la comunidad, compartir conocimientos y aprender cosas nuevas.
 
 **Talking about Personal Stuffs:**
 
-- 👨 I’m Javier Suárez (jsuarezruiz).
-- 😄 Pronouns: he/him/his.
-- 🏢 I currently work at Microsoft.
-- 💬 Ask me about anything, I am happy to help.
-- 📝 I regulary write [articles](https://javiersuarezruiz.wordpress.com).
-- 🎞️ I make fun coding [videos](https://www.youtube.com/javiersuarezruiz).
-- 🧑‍🤝‍🧑 I help with the organization of some [technical communities](https://www.meetup.com/SevillaDotNet).
-- 📫 How to reach me: javiersuarezruiz@hotmail.com.
+- 👨 Soy Javier Suárez (jsuarezruiz).
+- 🏢 Actualmente trabajo en Microsoft.
+- 💬 Pregúntame cualquier cosa, siempre es un placer poder ayudar.
+- 📝 Regularmente escribo [artículos](https://javiersuarezruiz.wordpress.com).
+- 🎞️ Me divierto creando [videos](https://www.youtube.com/javiersuarezruiz) sobre el mundo del desarrollo.
+- 🧑‍🤝‍🧑 Ayudo con la organización de algunas [comunidades técnicas](https://www.meetup.com/SevillaDotNet).
+- 📫 Cómo contactarme: javiersuarezruiz@hotmail.com.
 
 </br>
 
-📈 **My GitHub Stats:**
+📈 **Mis estadísticas de GitHub:**
 
 <p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jsuarezruiz&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
