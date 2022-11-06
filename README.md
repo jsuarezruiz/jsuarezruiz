@@ -11,6 +11,7 @@
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/jsuarezruiz)
 [![Blog Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://javiersuarezruiz.wordpress.com)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/jsuarezruiz)
+[![Mastodon Badge](https://img.shields.io/badge/-Mastodon-6364ff?style=flat-square&logo=Mastodon&logoColor=white)](https://mastodon.social/@jsuarezruiz)
 [![YouTube Badge](https://img.shields.io/badge/-YouTube-E60101?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/javiersuarezruiz)
 [![Twitch Badge](https://img.shields.io/badge/-Twitch-5C3C96?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/jsuarezruiz)
 
