@@ -1,13 +1,13 @@
-### Hola, soy <a href="https://javiersuarezruiz.wordpress.com" target="_blank">Javier</a> 👋
+### Bonjour, je suis <a href="https://javiersuarezruiz.wordpress.com" target="_blank">Javier</a> 👋
 
 ![Banner](images/banner.png)
 
 <table align="right">
- <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13"> Inglés</a></td></tr>
- <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="13"> Español</a></td></tr>
+  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13">Anglais</a></td></tr>
+  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="13"> Espagnol</a></td></tr>
 </table>
 
-[![Vistas del perfil](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
+[![Vues du profil](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/jsuarezruiz)
 [![Blog Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://javiersuarezruiz.wordpress.com)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/jsuarezruiz)
@@ -16,27 +16,27 @@
 
 </br>
 
-### Encantado de verte aquí!
+### C'est un plaisir de vous voir ici!
 
 <img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="400" />
 
-Actualmente estoy trabajando en el equipo de desarrollo de Xamarin.Forms y .NET MAUI en Microsoft.
+Je travaille actuellement dans l'équipe de développement Xamarin.Forms et .NET MAUI chez Microsoft.
 
-Me encanta interactuar con la comunidad, compartir conocimientos y aprender cosas nuevas.
+J'aime interagir avec la communauté, partager des connaissances et apprendre de nouvelles choses.
 
-**Más acerca de mí:**
+**Sur moi:**
 
-- 👨 Soy Javier Suárez (jsuarezruiz).
-- 🏢 Actualmente trabajo en Microsoft.
-- 💬 Pregúntame cualquier cosa, siempre es un placer poder ayudar.
-- 📝 Regularmente escribo [artículos](https://javiersuarezruiz.wordpress.com).
-- 🎞️ Me divierto creando [videos](https://www.youtube.com/javiersuarezruiz) sobre el mundo del desarrollo.
-- 🧑‍🤝‍🧑 Ayudo con la organización de algunas [comunidades técnicas](https://www.meetup.com/SevillaDotNet).
-- 📫 Cómo contactarme: javiersuarezruiz@hotmail.com.
+- 👨 Je suis Javier Suárez (jsuarezruiz).
+- 🏢 Je travaille actuellement chez Microsoft.
+- 💬 Demandez-moi n'importe quoi, c'est toujours un plaisir de vous aider.
+- 📝 J'écris régulièrement des [articles](https://javiersuarezruiz.wordpress.com).
+- 🎞️ Je m'amuse à créer des [vidéos](https://www.youtube.com/javiersuarezruiz) sur le monde du développement.
+- 🧑‍🤝‍🧑 J'aide à l'organisation de certaines [communautés techniques](https://www.meetup.com/SevillaDotNet).
+- 📫 Comment me contacter: javiersuarezruiz@hotmail.com.
 
 </br>
 
-📈 **Mis estadísticas de GitHub:**
+📈 **Mes statistiques GitHub :**
 
 <p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jsuarezruiz&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
