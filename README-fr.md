@@ -3,8 +3,8 @@
 ![Banner](images/banner.png)
 
 <table align="right">
-  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13">Anglais</a></td></tr>
-  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="13"> Espagnol</a></td></tr>
+  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="14"> Anglais</a></td></tr>
+  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="14"> Espagnol</a></td></tr>
 </table>
 
 [![Vues du profil](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)

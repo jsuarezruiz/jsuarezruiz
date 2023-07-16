@@ -3,8 +3,8 @@
 ![橫幅](images/banner.png)
 
 <table align="right">
-  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="13">英語</a></td></tr>
-  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="13"> 英語</a></td></tr>
+  <tr><td><a href="README.md"><img src="images/usa-flag.png" height="14"> 英語</a></td></tr>
+  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="14"> 英語</a></td></tr>
 </table>
 
 [![個人資料視圖](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
