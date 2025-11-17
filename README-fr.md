@@ -20,14 +20,14 @@
 
 <img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="400" />
 
-Je travaille actuellement dans l'équipe de développement Xamarin.Forms et .NET MAUI chez Microsoft.
+Je développe actuellement des interfaces utilisateur multiplateformes chez Avalonia UI. J'ai précédemment travaillé sur Xamarin.Forms et .NET MAUI chez Microsoft.
 
 J'aime interagir avec la communauté, partager des connaissances et apprendre de nouvelles choses.
 
 **Sur moi:**
 
 - 👨 Je suis Javier Suárez (jsuarezruiz).
-- 🏢 Je travaille actuellement chez Microsoft.
+- 🏢 Je travaille actuellement chez Avalonia UI.
 - 💬 Demandez-moi n'importe quoi, c'est toujours un plaisir de vous aider.
 - 📝 J'écris régulièrement des [articles](https://javiersuarezruiz.wordpress.com).
 - 🎞️ Je m'amuse à créer des [vidéos](https://www.youtube.com/javiersuarezruiz) sur le monde du développement.

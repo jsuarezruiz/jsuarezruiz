@@ -4,7 +4,7 @@
 
 <table align="right">
   <tr><td><a href="README.md"><img src="images/usa-flag.png" height="14"> 英語</a></td></tr>
-  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="14"> 英語</a></td></tr>
+  <tr><td><a href="README-es.md"><img src="images/es-flag.png" height="14"> 西班牙語</a></td></tr>
 </table>
 
 [![個人資料視圖](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
@@ -20,14 +20,14 @@
 
 <img align="right" alt="Gif" src="https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" width="400" />
 
-我目前在 Microsoft 的 Xamarin.Forms 和 .NET MAUI 開發團隊工作。
+我目前在 Avalonia UI 開發跨平台 UI。之前在 Microsoft 從事 Xamarin.Forms 和 .NET MAUI 的工作。
 
 我喜歡與社區互動、分享知識和學習新事物。
 
 **更多關於我：**
 
 - 👨 我是哈維爾·蘇亞雷斯 (jsuarezruiz)。
-- 🏢 我目前在微軟工作。
+- 🏢 我目前在 Avalonia UI 工作。前 Microsoft 員工。
 - 💬 有任何問題都可以問我，我很樂意提供幫助。
 - 📝 我經常寫[文章](https://javiersuarezruiz.wordpress.com)。
 - 🎞️ 創建有關發展世界的[視頻](https://www.youtube.com/javiersuarezruiz) 很有趣。
