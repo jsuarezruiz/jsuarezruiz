@@ -21,32 +21,41 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Stats
-        uses: lowlighter/metrics@latest
+      - name: Stats (light)
+        uses: readme-tools/github-readme-stats-action@v2
         with:
+          card: stats
+          options: username=jsuarezruiz&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage,discussions_started
+          path: site/stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: stats.svg
-          output_action: none
-          base: header, activity, community, repositories
-          config_timezone: Europe/Madrid
+          fail_on_error: true
 
-      - name: Top languages
-        uses: lowlighter/metrics@latest
+      - name: Stats (dark)
+        uses: readme-tools/github-readme-stats-action@v2
         with:
+          card: stats
+          options: username=jsuarezruiz&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage,discussions_started&theme=github_dark
+          path: site/stats-dark.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: top-langs.svg
-          output_action: none
-          base: ""
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_ignored: javascript
-          plugin_languages_details: percentage
+          fail_on_error: true
 
-      - name: Collect renders
-        run: |
-          mkdir -p site
-          cp /metrics_renders/*.svg site/
-          ls -la site
+      - name: Top languages (light)
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=jsuarezruiz&hide_border=true&layout=donut&langs_count=8&hide=javascript
+          path: site/top-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages (dark)
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=jsuarezruiz&hide_border=true&layout=donut&langs_count=8&hide=javascript&theme=github_dark
+          path: site/top-langs-dark.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          fail_on_error: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
