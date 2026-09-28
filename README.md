@@ -41,6 +41,6 @@ Love interacting with the community, share knowledge and learn new things.
 📈 **My GitHub Stats:**
 
 <p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jsuarezruiz&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsuarezruiz&show_icons=true&hide_border=true&layout=compact&langs_count=8&hide=javascript"/>
+  <img width="49%" alt="GitHub stats" src="https://jsuarezruiz.github.io/jsuarezruiz/stats.svg" />
+  <img width="49%" alt="Top languages" src="https://jsuarezruiz.github.io/jsuarezruiz/top-langs.svg" />
 </p>
