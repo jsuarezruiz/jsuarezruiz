@@ -41,10 +41,10 @@ Me encanta interactuar con la comunidad, compartir conocimientos y aprender cosa
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://jsuarezruiz.github.io/jsuarezruiz/stats-dark.svg" />
-    <img height="180em" alt="GitHub stats" src="https://jsuarezruiz.github.io/jsuarezruiz/stats.svg" />
+    <img width="57%" alt="GitHub stats" src="https://jsuarezruiz.github.io/jsuarezruiz/stats.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://jsuarezruiz.github.io/jsuarezruiz/top-langs-dark.svg" />
-    <img height="180em" alt="Top languages" src="https://jsuarezruiz.github.io/jsuarezruiz/top-langs.svg" />
+    <img width="41%" alt="Top languages" src="https://jsuarezruiz.github.io/jsuarezruiz/top-langs.svg" />
   </picture>
 </p>
