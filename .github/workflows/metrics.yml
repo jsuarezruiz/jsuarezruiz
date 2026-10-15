@@ -3,6 +3,11 @@ name: Metrics
 on:
   schedule:
     - cron: "0 3 * * *"
+  push:
+    branches: [master]
+    paths:
+      - "portfolio/**"
+      - ".github/workflows/metrics.yml"
   workflow_dispatch:
 
 permissions:
@@ -21,6 +26,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+
       - name: Stats (light)
         uses: readme-tools/github-readme-stats-action@v2
         with:
@@ -56,6 +63,19 @@ jobs:
           path: site/top-langs-dark.svg
           token: ${{ secrets.METRICS_TOKEN }}
           fail_on_error: true
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: portfolio/global.json
+
+      - name: Portfolio
+        working-directory: portfolio
+        run: |
+          dotnet workload install wasm-tools
+          dotnet publish Portfolio.Browser -c Release -o ../publish
+          cp -r ../publish/wwwroot ../site/portfolio
+          # Pages does not serve the precompressed copies, so leave them out.
+          find ../site/portfolio \( -name '*.br' -o -name '*.gz' \) -delete
 
       - uses: actions/upload-pages-artifact@v3
         with:
