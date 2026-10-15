@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Suárez · Portfolio</title>
+    <meta name="description" content="Javier Suárez, Software Engineer at Avalonia. A 3D room with a laptop running a pixel-art desktop built with Avalonia and WebAssembly, and a phone with live demos of his libraries.">
+    <meta name="author" content="Javier Suárez">
+    <meta name="keywords" content="Javier Suárez, jsuarezruiz, Avalonia, .NET, .NET MAUI, Xamarin, WebAssembly, UI engineer, portfolio">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e1e2a">
+    <meta name="color-scheme" content="light">
+    <link rel="canonical" href="https://jsuarezruiz.github.io/jsuarezruiz/portfolio/">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="me" href="https://github.com/jsuarezruiz">
+    <link rel="me" href="https://www.linkedin.com/in/jsuarezruiz">
+    <link rel="me" href="https://mastodon.social/@jsuarezruiz">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Javier Suárez">
+    <meta property="og:title" content="Javier Suárez · Portfolio">
+    <meta property="og:description" content="A 3D room, a pixel-art desktop built with Avalonia and WebAssembly, and a phone with live demos.">
+    <meta property="og:url" content="https://jsuarezruiz.github.io/jsuarezruiz/portfolio/">
+    <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="Javier">
+    <meta property="profile:last_name" content="Suárez">
+    <meta property="profile:username" content="jsuarezruiz">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Javier Suárez · Portfolio">
+    <meta name="twitter:description" content="A 3D room, a pixel-art desktop built with Avalonia and WebAssembly, and a phone with live demos.">
+    <meta name="twitter:creator" content="@jsuarezruiz">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Javier Suárez",
+            "alternateName": "jsuarezruiz",
+            "jobTitle": "Software Engineer",
+            "worksFor": { "@type": "Organization", "name": "Avalonia", "url": "https://avaloniaui.net" },
+            "address": { "@type": "PostalAddress", "addressLocality": "Sevilla", "addressCountry": "ES" },
+            "url": "https://jsuarezruiz.github.io/jsuarezruiz/portfolio/",
+            "sameAs": [
+                "https://github.com/jsuarezruiz",
+                "https://www.linkedin.com/in/jsuarezruiz",
+                "https://twitter.com/jsuarezruiz",
+                "https://mastodon.social/@jsuarezruiz",
+                "https://www.youtube.com/javiersuarezruiz",
+                "https://javiersuarezruiz.wordpress.com"
+            ]
+        }
+    </script>
+
+    <link rel="stylesheet" href="./app.css" />
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <canvas id="room" aria-hidden="true"></canvas>
+    <div id="out"></div>
+    <div id="phoneapp" hidden></div>
+
+    <div id="intro" hidden>
+        <h1>Javier Suárez</h1>
+        <p>Software Engineer · Avalonia</p>
+    </div>
+
+    <div id="hint" class="chip">Click around: the laptop, the phone, the paper, the books and the rest</div>
+    <div id="status" class="chip">Suárez XP is booting…</div>
+    <button id="sound" class="chip" type="button">Sound on</button>
+    <div id="tip"></div>
+    <div id="card" hidden></div>
+
+    <main id="plain">
+        <h1>Javier Suárez</h1>
+        <p>Software Engineer at Avalonia. Previously worked on Xamarin.Forms and .NET MAUI at Microsoft.
+            Community helper, speaker, former Microsoft MVP. Based in Sevilla.</p>
+        <ul>
+            <li><a href="https://github.com/jsuarezruiz">GitHub</a></li>
+            <li><a href="https://github.com/jsuarezruiz/Nova.Avalonia.UI">Nova.Avalonia.UI</a></li>
+            <li><a href="https://github.com/jsuarezruiz/Cupertino.Avalonia">Cupertino.Avalonia</a></li>
+            <li><a href="https://github.com/jsuarezruiz/awesome-dotnet-maui">awesome-dotnet-maui</a></li>
+        </ul>
+    </main>
+
+    <script type="module" src="./sound.js"></script>
+    <script type="module" src="./room.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

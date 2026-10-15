@@ -9,12 +9,13 @@
 
 [![Visualizzazioni profilo](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/jsuarezruiz)
+[![Portfolio Badge](https://img.shields.io/badge/Portfolio-2a5fd6?style=flat-square&logo=windowsxp&logoColor=white)](https://jsuarezruiz.github.io/jsuarezruiz/portfolio/)
 [![Blog Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://javiersuarezruiz.wordpress.com)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/jsuarezruiz)
 [![Badge YouTube](https://img.shields.io/badge/-YouTube-E60101?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/javiersuarezruiz)
 [![Distintivo Twitch](https://img.shields.io/badge/-Twitch-5C3C96?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/jsuarezruiz)
 
-</br>
+<br>
 
 ### Mi fa piacere vederti qui!
 
@@ -31,10 +32,11 @@ Amo interagire con la comunità, condividere conoscenze e imparare cose nuove.
 - 💬 Chiedimi qualsiasi cosa, è sempre un piacere aiutarti.
 - 📝 Scrivo regolarmente [articoli](https://javiersuarezruiz.wordpress.com).
 - 🎞️ Mi diverto a creare [video](https://www.youtube.com/javiersuarezruiz) sul mondo dello sviluppo.
+- 🎮 Esplora il mio [portfolio interattivo](https://jsuarezruiz.github.io/jsuarezruiz/portfolio/).
 - 🧑‍🤝‍🧑 Aiuto con l'organizzazione di alcune [comunità tecniche](https://www.meetup.com/SevillaDotNet).
 - 📫 Come contattarmi: javiersuarezruiz@hotmail.com.
 
-</br>
+<br>
 
 📈 **Le mie statistiche GitHub:**
 

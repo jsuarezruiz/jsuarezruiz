@@ -1,0 +1,251 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #d8d2c4;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #f4f1e6;
+}
+
+#room {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* Avalonia boots hidden behind the room and fades in once the camera reaches the screen. */
+#out {
+    position: fixed;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 350ms ease;
+    z-index: 5;
+}
+
+/* On the phone, Avalonia only covers the phone's screen; room.js sets the size. */
+#out.phone {
+    inset: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+/* A live app on the phone: a sheet over the phone's screen, closed by dragging the bar up. */
+#phoneapp {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    border-radius: var(--corner, 26px);
+    overflow: hidden;
+}
+
+#phoneapp[hidden] { display: none; }
+
+#phoneapp .sheet {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--corner, 26px);
+    overflow: hidden;
+    background: #0f1020;
+    transform-origin: 50% 60%;
+    transition: transform 260ms cubic-bezier(0.2, 0.8, 0.2, 1), opacity 260ms ease;
+    animation: sheet-open 280ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* While a finger is on the bar the sheet follows it exactly, with no easing. */
+#phoneapp.dragging .sheet { transition: none; }
+#phoneapp.dragging iframe { pointer-events: none; }
+
+@keyframes sheet-open {
+    from { transform: scale(0.3); opacity: 0; }
+}
+
+/* Shown until the app inside the iframe has painted over it. */
+#phoneapp .sheet::before {
+    content: "Loading the live app…";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #f4f1e6;
+    font-size: 13px;
+}
+
+#phoneapp iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* The home bar floats over the bottom of the app, as it does on a phone. */
+#phoneapp .homebar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: grab;
+    touch-action: none;
+}
+
+#phoneapp .homebar::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    width: 34%;
+    height: 5px;
+    border-radius: 3px;
+    background: #fff;
+    mix-blend-mode: difference;
+    transform: translateX(-50%);
+}
+
+#phoneapp.dragging .homebar { cursor: grabbing; }
+#phoneapp.closing .homebar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+    #phoneapp .sheet { transition: none; animation: none; }
+}
+
+#out.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.chip {
+    position: fixed;
+    left: 16px;
+    padding: 6px 10px;
+    font: 12px ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: #1e1e2a;
+    border: 2px solid #5b8ff5;
+    z-index: 3;
+    transition: opacity 600ms ease;
+}
+
+#status { bottom: 16px; }
+
+/* The room's sound switch. The laptop has its own in the taskbar, so this one hides behind it. */
+#sound {
+    left: auto;
+    right: 16px;
+    top: 16px;
+    color: inherit;
+    cursor: pointer;
+}
+#hint { top: 16px; max-width: calc(100vw - 170px); box-sizing: border-box; }
+.chip.gone { opacity: 0; }
+
+#tip {
+    position: fixed;
+    z-index: 4;
+    padding: 5px 8px;
+    font-size: 13px;
+    background: #fff8c8;
+    color: #1e1e2a;
+    border: 2px solid #1e1e2a;
+    pointer-events: none;
+    white-space: nowrap;
+    display: none;
+}
+
+#card {
+    position: fixed;
+    z-index: 4;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(460px, calc(100vw - 32px));
+    max-height: calc(100vh - 64px);
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 24px 26px;
+    background: #f4f1e6;
+    color: #1e1e2a;
+    border: 3px solid #1e1e2a;
+    box-shadow: 9px 9px 0 rgba(0, 0, 0, 0.35);
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+#card[hidden] { display: none; }
+#card h2 { margin: 0 0 4px; font-size: 20px; }
+#card h3 { margin: 16px 0 2px; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #2456c8; }
+#card p { margin: 0 0 6px; }
+#card .meta { color: #5a5a6a; }
+#card .job { margin: 10px 0 0; font-weight: 600; }
+#card .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+
+#card a, #card button {
+    font: inherit;
+    font-weight: 600;
+    padding: 7px 12px;
+    border: 3px solid #123a9c;
+    background: #2456c8;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#card button.quiet {
+    background: #d8d2be;
+    border-color: #8a8674;
+    color: #1e1e2a;
+}
+
+/* Real text for search engines and screen readers; the canvases show nothing to either. */
+#plain {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+}
+
+/* With the laptop's screen filling the page, its own taskbar switch takes over. */
+#out.active:not(.phone) ~ #sound { display: none; }
+
+/* The title over the opening shot. It never takes clicks: any click skips the intro. */
+#intro {
+    position: fixed;
+    inset: 0;
+    z-index: 7;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 6px;
+    pointer-events: none;
+    text-align: center;
+    color: #f4f1e6;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.75);
+    transition: opacity 900ms ease;
+    animation: intro-in 900ms ease both;
+}
+
+#intro[hidden] { display: none; }
+#intro.gone { opacity: 0; }
+#intro h1 { margin: 0; font-size: clamp(34px, 7vw, 76px); font-weight: 700; letter-spacing: -0.02em; }
+#intro p { margin: 0; font-size: clamp(14px, 2vw, 20px); letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; }
+
+@keyframes intro-in {
+    from { opacity: 0; transform: translateY(10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #intro { animation: none; }
+}

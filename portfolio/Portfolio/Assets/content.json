@@ -1,0 +1,364 @@
+{
+  "profile": {
+    "name": "Javier Suárez",
+    "login": "jsuarezruiz",
+    "bio": "Community Helper, Speaker, Geek, former Microsoft MVP. Software Engineer at Avalonia.",
+    "location": "Sevilla",
+    "followers": 2905,
+    "repos": 216,
+    "stars": 14389,
+    "url": "https://github.com/jsuarezruiz"
+  },
+  "eras": [
+    {
+      "id": "xamarin",
+      "name": "Xamarin.Forms",
+      "years": "2014-2021"
+    },
+    {
+      "id": "maui",
+      "name": ".NET MAUI",
+      "years": "2021-2025"
+    },
+    {
+      "id": "avalonia",
+      "name": "Avalonia",
+      "years": "2026-"
+    }
+  ],
+  "links": [
+    {
+      "label": "Email me",
+      "url": "mailto:javiersuarezruiz@hotmail.com"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/jsuarezruiz"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/jsuarezruiz"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/javiersuarezruiz"
+    },
+    {
+      "label": "Blog",
+      "url": "https://javiersuarezruiz.wordpress.com"
+    }
+  ],
+  "apps": [
+    {
+      "name": "Nova.Avalonia.UI",
+      "url": "https://jsuarezruiz.github.io/Nova.Avalonia.UI/gallery/"
+    },
+    {
+      "name": "Cupertino.Avalonia",
+      "url": "https://jsuarezruiz.github.io/Cupertino.Avalonia/gallery/"
+    },
+    {
+      "name": "Nova.Avalonia.AIKit",
+      "url": "https://jsuarezruiz.github.io/Nova.Avalonia.AIKit/gallery/"
+    },
+    {
+      "name": "Nova.Avalonia.Animations",
+      "url": "https://jsuarezruiz.github.io/Nova.Avalonia.Animations/gallery/"
+    },
+    {
+      "name": "avalonia_vignettes",
+      "url": "https://jsuarezruiz.github.io/avalonia_vignettes/"
+    }
+  ],
+  "photos": [
+    {
+      "file": "monkeyconf.jpg",
+      "caption": "MonkeyConf"
+    },
+    {
+      "file": "sevilladotnet.jpg",
+      "caption": "SevillaDotNet meetup"
+    },
+    {
+      "file": "dotnetconf.jpg",
+      "caption": ".NET Conf: Focus on Xamarin"
+    },
+    {
+      "file": "avaloniaconf.jpg",
+      "caption": "Avalonia Conf Online"
+    }
+  ],
+  "resume": {
+    "title": "Software Engineer",
+    "summary": "I want to learn something new every day, and I enjoy sharing ideas through technology that make life easier.",
+    "pdf": "https://github.com/jsuarezruiz/jsuarezruiz/blob/master/Javier%20Suarez%20Resume.pdf",
+    "experience": [
+      {
+        "company": "Avalonia UI",
+        "role": "Software Engineer",
+        "period": "Now",
+        "points": [
+          "Building cross-platform UI for .NET.",
+          "Cupertino.Avalonia: an iOS design system for Avalonia, with control themes, motion and Liquid Glass.",
+          "Nova.Avalonia.UI: a suite of controls and layout panels.",
+          "Avalonia.Vignettes, and dual-screen and foldable samples with a TwoPaneView control."
+        ]
+      },
+      {
+        "company": "Microsoft",
+        "role": "Senior Software Engineer",
+        "period": "From Dec 2018",
+        "points": [
+          "Led the UI APIs in Xamarin.Forms: gradients, shapes and view clipping, which raised satisfaction in customer surveys.",
+          "Created new controls such as RefreshView (pull to refresh).",
+          "Built core .NET MAUI APIs: lifecycle events, shadows and a new cross-platform drawing API.",
+          "Led an experimental project for drawn controls in Cupertino, Material and Fluent styles."
+        ]
+      },
+      {
+        "company": "Plain Concepts",
+        "role": "Software Engineer",
+        "period": "Aug 2015 to Dec 2018",
+        "points": [
+          "Managed the mobile development team.",
+          "Built Microsoft's Xamarin.Forms demos for Build and Connect, including BikeSharing and SmartHotel360.",
+          "Led the first external Xamarin.Forms backend, adding Linux support with GtkSharp.",
+          "Helped add WPF support to Xamarin.Forms, and built Visual Studio extensions with that team.",
+          "Wrote a small UI framework for a game engine, rendering with OpenGL and DirectX."
+        ]
+      },
+      {
+        "company": "Bravent",
+        "role": "Mobile Team Lead",
+        "period": "Nov 2014 to Aug 2015",
+        "points": [
+          "Created and managed the mobile development team.",
+          "Earned several Xamarin certifications and a Microsoft partnership within months.",
+          "Shipped cross-platform apps for banks, and the official Real Madrid app for Microsoft."
+        ]
+      },
+      {
+        "company": "Icinetic TIC",
+        "role": "Software Engineer",
+        "period": "Dec 2012 to Oct 2014",
+        "points": [
+          "Built Windows Phone and Windows Store apps for radio stations, clothing stores and others.",
+          "Helped create Windows Phone App Studio, Microsoft's drag-and-drop app builder that also generated the code."
+        ]
+      },
+      {
+        "company": "iDesarrolla",
+        "role": "Software Engineer",
+        "period": "Jun 2009 to Dec 2012",
+        "points": [
+          "Worked mainly with WPF, Silverlight and Windows Phone, plus some Objective-C for iOS."
+        ]
+      }
+    ],
+    "openSource": [
+      "Xamarin.Forms GoodLooking UI: samples that recreate real apps and designs.",
+      "TemplateUI: a Xamarin.Forms controls toolkit.",
+      "GraphicsControls: drawn controls for .NET MAUI.",
+      "awesome-dotnet-maui and awesome-xamarin-forms: curated lists."
+    ],
+    "achievements": [
+      "Microsoft MVP, 2014 to 2019",
+      "Xamarin MVP",
+      "Xamarin Certified Mobile Developer",
+      "Microsoft Active Professional 2014"
+    ],
+    "communities": [
+      "SevillaDotNet: .NET user group in Seville (organiser).",
+      "SXDG: Xamarin developers group in Seville (organiser).",
+      "Author of the CampusMVP course on mobile development with C# and Xamarin."
+    ],
+    "education": [
+      "Superior Technician in Management of Computer Systems. Centro Educativo Altair, Sevilla, 2007 to 2009."
+    ],
+    "skills": [
+      ".NET",
+      "Avalonia",
+      ".NET MAUI",
+      "Xamarin",
+      "WinUI",
+      "WPF",
+      "UWP",
+      "Azure",
+      "Flutter"
+    ],
+    "languages": [
+      "Spanish",
+      "English"
+    ]
+  },
+  "projects": [
+    {
+      "name": "xamarin-forms-goodlooking-UI",
+      "era": "xamarin",
+      "stars": 2514,
+      "description": "Xamarin.Forms goodlooking UI samples",
+      "url": "https://github.com/jsuarezruiz/xamarin-forms-goodlooking-UI"
+    },
+    {
+      "name": "awesome-xamarin-forms",
+      "era": "xamarin",
+      "stars": 1221,
+      "description": "A curated list of awesome Xamarin.Forms libraries and resources",
+      "url": "https://github.com/jsuarezruiz/awesome-xamarin-forms"
+    },
+    {
+      "name": "Xamanimation",
+      "era": "xamarin",
+      "stars": 452,
+      "description": "Xamarin Forms Animation Library",
+      "url": "https://github.com/jsuarezruiz/Xamanimation"
+    },
+    {
+      "name": "TemplateUI",
+      "era": "xamarin",
+      "stars": 416,
+      "description": "A set of Xamarin.Forms templated controls.",
+      "url": "https://github.com/jsuarezruiz/TemplateUI"
+    },
+    {
+      "name": "xamarin-forms-page-transitions",
+      "era": "xamarin",
+      "stars": 201,
+      "description": "Custom page transitions in a Xamarin.Forms App",
+      "url": "https://github.com/jsuarezruiz/xamarin-forms-page-transitions"
+    },
+    {
+      "name": "forms-gtk-progress",
+      "era": "xamarin",
+      "stars": 193,
+      "description": "Xamarin.Forms GTK Backend Progress",
+      "url": "https://github.com/jsuarezruiz/forms-gtk-progress"
+    },
+    {
+      "name": "xamarin-forms-netflix-sample",
+      "era": "xamarin",
+      "stars": 192,
+      "description": "A Xamarin.Forms version of the Netflix app to prove you can create goodlooking UI with Xamarin.Forms.",
+      "url": "https://github.com/jsuarezruiz/xamarin-forms-netflix-sample"
+    },
+    {
+      "name": "xamarin-forms-perf-playground",
+      "era": "xamarin",
+      "stars": 121,
+      "description": "Xamarin.Forms Performance Playground (Layouts, Bindings, XAMLC, etc)",
+      "url": "https://github.com/jsuarezruiz/xamarin-forms-perf-playground"
+    },
+    {
+      "name": "awesome-dotnet-maui",
+      "era": "maui",
+      "stars": 2667,
+      "description": "A curated list of awesome .NET MAUI libraries and resources.",
+      "url": "https://github.com/jsuarezruiz/awesome-dotnet-maui"
+    },
+    {
+      "name": "dotnet-maui-showcase",
+      "era": "maui",
+      "stars": 1204,
+      "description": "A curated list of awesome .NET MAUI samples",
+      "url": "https://github.com/jsuarezruiz/dotnet-maui-showcase"
+    },
+    {
+      "name": "AlohaKit.Controls",
+      "era": "maui",
+      "stars": 483,
+      "description": "A set of .NET MAUI drawn controls.",
+      "url": "https://github.com/jsuarezruiz/AlohaKit.Controls"
+    },
+    {
+      "name": "figma-to-maui-graphics",
+      "era": "maui",
+      "stars": 422,
+      "description": "FigmaSharp.Maui.Graphics turns your Figma design into .NET MAUI Graphics code",
+      "url": "https://github.com/jsuarezruiz/figma-to-maui-graphics"
+    },
+    {
+      "name": "AlohaKit.Animations",
+      "era": "maui",
+      "stars": 308,
+      "description": "AlohaKit.Animations is a library designed for .NET MAUI that aims to facilitate the use of animations to developers.",
+      "url": "https://github.com/jsuarezruiz/AlohaKit.Animations"
+    },
+    {
+      "name": "netmaui-chat-app-challenge",
+      "era": "maui",
+      "stars": 262,
+      "description": "Chat App UI Challenge made with .NET MAUI.",
+      "url": "https://github.com/jsuarezruiz/netmaui-chat-app-challenge"
+    },
+    {
+      "name": "AlohaKit.Layouts",
+      "era": "maui",
+      "stars": 138,
+      "description": ".NET MAUI Layouts Library",
+      "url": "https://github.com/jsuarezruiz/AlohaKit.Layouts"
+    },
+    {
+      "name": "TemplateMAUI",
+      "era": "maui",
+      "stars": 136,
+      "description": "A set of .NET MAUI templated controls.",
+      "url": "https://github.com/jsuarezruiz/TemplateMAUI"
+    },
+    {
+      "name": "Nova.Avalonia.UI",
+      "era": "avalonia",
+      "stars": 91,
+      "description": "Nova.Avalonia.UI is a comprehensive suite of UI controls for Avalonia UI.",
+      "url": "https://github.com/jsuarezruiz/Nova.Avalonia.UI"
+    },
+    {
+      "name": "AvaloniaMauiHybrid.Controls",
+      "era": "avalonia",
+      "stars": 32,
+      "description": "Easily expose Avalonia drawn controls to use in .NET MAUI.",
+      "url": "https://github.com/jsuarezruiz/AvaloniaMauiHybrid.Controls"
+    },
+    {
+      "name": "Cupertino.Avalonia",
+      "era": "avalonia",
+      "stars": 18,
+      "description": "An iOS 26 design system for Avalonia: control themes, typography, colour, motion and icons, plus the controls iOS has and Avalonia does not.",
+      "url": "https://github.com/jsuarezruiz/Cupertino.Avalonia"
+    },
+    {
+      "name": "AvaloniaSkiaSharpFiddle",
+      "era": "avalonia",
+      "stars": 13,
+      "description": "Avalonia SkiaSharp Fiddle is a SkiaSharp playground created with Avalonia and running on macOS, Linux, Windows and WebAssembly.",
+      "url": "https://github.com/jsuarezruiz/AvaloniaSkiaSharpFiddle"
+    },
+    {
+      "name": "avalonia-navigation-playground",
+      "era": "avalonia",
+      "stars": 10,
+      "description": "A collection of Avalonia navigation showcases demonstrating NavigationPage, CarouselPage, TabbedPage, and DrawerPage patterns across desktop, Android, and iOS",
+      "url": "https://github.com/jsuarezruiz/avalonia-navigation-playground"
+    },
+    {
+      "name": "avalonia_vignettes",
+      "era": "avalonia",
+      "stars": 10,
+      "description": "Avalonia ports of gskinner's Flutter Vignettes, a collection of explorations into what a UI framework can be pushed to do.",
+      "url": "https://github.com/jsuarezruiz/avalonia_vignettes"
+    },
+    {
+      "name": "avalonia-clothfashion-app-challenge",
+      "era": "avalonia",
+      "stars": 8,
+      "description": "ClothFashion App UI Challenge made with Avalonia UI",
+      "url": "https://github.com/jsuarezruiz/avalonia-clothfashion-app-challenge"
+    },
+    {
+      "name": "evergine-avalonia-showcase",
+      "era": "avalonia",
+      "stars": 2,
+      "description": "An automotive configurator sample that embeds an Evergine 3D scene inside an Avalonia desktop application.",
+      "url": "https://github.com/jsuarezruiz/evergine-avalonia-showcase"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Portfolio.Browser/Portfolio.Browser.csproj" />
+  <Project Path="Portfolio.Desktop/Portfolio.Desktop.csproj" />
+  <Project Path="Portfolio/Portfolio.csproj" />
+</Solution>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net11.0-browser</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Code Studio loads XAML at run time, which needs the types the trimmer would remove. -->
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <!-- Incremental Debug builds leave a stale compressed dotnet.js, so browsers load an old
+       assembly list. Compression stays on for Release, which is what gets published. -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <CompressionEnabled>false</CompressionEnabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portfolio\Portfolio.csproj" />
+  </ItemGroup>
+</Project>

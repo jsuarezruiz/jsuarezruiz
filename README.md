@@ -9,13 +9,14 @@
 
 [![Profile views](https://komarev.com/ghpvc/?username=jsuarezruiz&style=flat-square)](https://github.com/jsuarezruiz)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/jsuarezruiz)
+[![Portfolio Badge](https://img.shields.io/badge/Portfolio-2a5fd6?style=flat-square&logo=windowsxp&logoColor=white)](https://jsuarezruiz.github.io/jsuarezruiz/portfolio/)
 [![Blog Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://javiersuarezruiz.wordpress.com)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/jsuarezruiz)
 [![Mastodon Badge](https://img.shields.io/badge/-Mastodon-6364ff?style=flat-square&logo=Mastodon&logoColor=white)](https://mastodon.social/@jsuarezruiz)
 [![YouTube Badge](https://img.shields.io/badge/-YouTube-E60101?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/javiersuarezruiz)
 [![Twitch Badge](https://img.shields.io/badge/-Twitch-5C3C96?style=flat-square&logo=Twitch&logoColor=white)](https://www.twitch.tv/jsuarezruiz)
 
-</br>
+<br>
 
 ### Glad to see you here!
 
@@ -23,20 +24,21 @@
 
 I'm currently building cross-platform UI at Avalonia UI. Previously worked on Xamarin.Forms and .NET MAUI at Microsoft.
 
-Love interacting with the community, share knowledge and learn new things.
+Love interacting with the community, sharing knowledge and learning new things.
 
-**Talking about Personal Stuffs:**
+**More about me:**
 
 - 👨 I’m Javier Suárez (jsuarezruiz).
 - 😄 Pronouns: he/him/his.
 - 🏢 I currently work at Avalonia UI.
 - 💬 Ask me about anything, I am happy to help.
-- 📝 I regulary write [articles](https://javiersuarezruiz.wordpress.com).
+- 📝 I regularly write [articles](https://javiersuarezruiz.wordpress.com).
 - 🎞️ I make fun coding [videos](https://www.youtube.com/javiersuarezruiz).
+- 🎮 Explore my [interactive portfolio](https://jsuarezruiz.github.io/jsuarezruiz/portfolio/).
 - 🧑‍🤝‍🧑 I help with the organization of some [technical communities](https://www.meetup.com/SevillaDotNet).
 - 📫 How to reach me: javiersuarezruiz@hotmail.com.
 
-</br>
+<br>
 
 📈 **My GitHub Stats:**
 
