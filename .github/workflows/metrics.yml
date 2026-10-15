@@ -64,9 +64,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           fail_on_error: true
 
+      # The exact SDK in portfolio/global.json. Newer .NET 11 SDKs ship a newer Emscripten that
+      # cannot link the native libraries this build uses.
       - uses: actions/setup-dotnet@v4
         with:
-          global-json-file: portfolio/global.json
+          dotnet-version: 11.0.100-preview.1.26104.118
 
       - name: Portfolio
         working-directory: portfolio
