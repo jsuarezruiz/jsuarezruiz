@@ -64,11 +64,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           fail_on_error: true
 
-      # The exact SDK in portfolio/global.json. Newer .NET 11 SDKs ship a newer Emscripten that
-      # cannot link the native libraries this build uses.
+      # Install exactly the SDK in portfolio/global.json. Pointing setup-dotnet at the file would
+      # follow its rollForward and install the newest .NET 11, whose Emscripten cannot link the
+      # native libraries this build uses.
+      - id: sdk
+        run: echo "version=$(jq -r .sdk.version portfolio/global.json)" >> "$GITHUB_OUTPUT"
+
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 11.0.100-preview.1.26104.118
+          dotnet-version: ${{ steps.sdk.outputs.version }}
 
       - name: Portfolio
         working-directory: portfolio
